@@ -26,7 +26,7 @@ crontab:
 ```
  $ python3 id.py
 ---------------------------- Welcome to 'raspi41GB' ----------------------------
-Computer Model     : Raspberry Pi 4 Model B 1gigabytes
+Computer Model     : Raspberry Pi 4 Model B 1GB
 Total memory       : 1GB
 Disk Space         : total=12GB used= 68% free=4GB
 Model              : Raspberry Pi 4 Model B Rev 1.1
