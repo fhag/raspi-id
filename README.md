@@ -1,2 +1,2 @@
 # raspi-id
-Identify your Raspberry Pi and sumarize all technical details
+Identify your Raspberry Pi and summarize all technical details in one file.
