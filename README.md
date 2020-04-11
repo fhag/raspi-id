@@ -1,4 +1,4 @@
-<small id='version'>v0.0.1</small>
+<small id='version'>v0.0.2</small>
 <!--
 @author: GFI
 FHAG
@@ -9,6 +9,10 @@ FHAG
 <h2 id='id' style='color:DodgerBlue'><b>id.py</b></h2>
 
 Identify your Raspberry and show all key information on screen. Save the same information in file `id.txt` .
+
+**Installation**
+
+Download `id.py` into the  directory where you need it.
 
 **How to use**
 
