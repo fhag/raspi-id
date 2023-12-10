@@ -13,7 +13,7 @@ from platform import uname
 from os import popen
 import psutil
 
-__version__ = '0.1.5'
+__version__ = '0.1.6'
 
 
 # Raspi 4 shows BCM2835 instead of BCM2711
@@ -38,7 +38,7 @@ def raspi_model():
     cpu_dict = get_cpudict()
     if cpu_dict:
         tot_mem = str(_get_mem())
-        proc = cpu_dict['Hardware']
+        proc = cpu_dict.get('Hardware', 'unkonwn')
         cpu_freq = f'{psutil.cpu_freq().current:.0f}'
         criterias = [cpu_freq, proc, tot_mem]
         for raspi in RASPIS:
